@@ -1,4 +1,4 @@
-import 'package:nti_graduation_project/core/constant/app_keys.dart';
+import 'package:ala_elnota/core/constant/app_keys.dart';
 
 abstract class Validator {
   static String? validateEmail(String? val) {
