@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "196082562425",
+    "project_id": "ala-elnota",
+    "storage_bucket": "ala-elnota.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196082562425:android:0bdd8cdadcef2a4567aba8",
+        "android_client_info": {
+          "package_name": "com.example.ala_elnota"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaxdlMwPoVJJ0MXSqxshtpgdUFpU9vjdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
