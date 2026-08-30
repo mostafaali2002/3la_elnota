@@ -1,89 +1,149 @@
 import 'package:flutter/material.dart';
 
 abstract class AppTextStyle {
-  static const TextStyle kTextStyleMedium48 = TextStyle(
-    fontSize: 48,
-    fontWeight: FontWeight.w500,
+  AppTextStyle._();
+
+  static const TextStyle display42Bold = TextStyle(
+    fontSize: 42,
+    fontWeight: FontWeight.bold,
     color: Colors.black,
-  );
-  static const TextStyle kTextStyleSemiBold24 = TextStyle(
-    fontSize: 24,
-    fontWeight: FontWeight.w600,
-    color: Colors.black,
-  );
-  static const TextStyle kTextStyleBold22 = TextStyle(
-    fontSize: 22,
-    fontWeight: FontWeight.w700,
-    color: Colors.black,
-  );
-  static const TextStyle kTextStyleSemiBold22 = TextStyle(
-    fontSize: 22,
-    fontWeight: FontWeight.w600,
-    color: Colors.black,
-  );
-  static const TextStyle kTextStyleDiscount = TextStyle(
-    fontSize: 12,
-    fontWeight: FontWeight.w500,
-    color: Color(0xFFFFB700),
-    decoration: TextDecoration.lineThrough,
-    decorationThickness: 1.5,
-    decorationColor: Color(0xFFFFB700),
   );
 
-  static const TextStyle kTextStyleSemiBold18 = TextStyle(
-    fontSize: 18,
-    fontWeight: FontWeight.w600,
-    color: Colors.black,
-  );
-  static const TextStyle kTextStyleRegular18 = TextStyle(
-    fontSize: 18,
-    fontWeight: FontWeight.w400,
-    color: Colors.black,
-  );
-  static const TextStyle kTextStyleMedium18 = TextStyle(
-    fontSize: 18,
+  static const TextStyle display42Medium = TextStyle(
+    fontSize: 42,
     fontWeight: FontWeight.w500,
     color: Colors.black,
   );
 
-  static const TextStyle kTextStyleRegular16 = TextStyle(
-    fontSize: 16,
-    fontWeight: FontWeight.w400,
+  static const TextStyle display42Regular = TextStyle(
+    fontSize: 42,
+    fontWeight: FontWeight.normal,
     color: Colors.black,
   );
-  static const TextStyle kTextStyleSemiBold16 = TextStyle(
+
+  static const TextStyle display34Bold = TextStyle(
+    fontSize: 34,
+    fontWeight: FontWeight.bold,
+    color: Colors.black,
+  );
+
+  static const TextStyle display34Medium = TextStyle(
+    fontSize: 34,
+    fontWeight: FontWeight.w500,
+    color: Colors.black,
+  );
+
+  static const TextStyle display34Regular = TextStyle(
+    fontSize: 34,
+    fontWeight: FontWeight.normal,
+    color: Colors.black,
+  );
+
+  static const TextStyle heading27Bold = TextStyle(
+    fontSize: 27,
+    fontWeight: FontWeight.bold,
+    color: Colors.black,
+  );
+
+  static const TextStyle heading27SemiBold = TextStyle(
+    fontSize: 27,
+    fontWeight: FontWeight.w600,
+    color: Colors.black,
+  );
+
+  static const TextStyle heading27Medium = TextStyle(
+    fontSize: 27,
+    fontWeight: FontWeight.w500,
+    color: Colors.black,
+  );
+
+  static const TextStyle heading27Regular = TextStyle(
+    fontSize: 27,
+    fontWeight: FontWeight.normal,
+    color: Colors.black,
+  );
+
+  static const TextStyle title21Regular = TextStyle(
+    fontSize: 21,
+    fontWeight: FontWeight.normal,
+    color: Colors.black,
+  );
+
+  static const TextStyle title18Bold = TextStyle(
+    fontSize: 18,
+    fontWeight: FontWeight.bold,
+    color: Colors.black,
+  );
+
+  static const TextStyle title18Medium = TextStyle(
+    fontSize: 18,
+    fontWeight: FontWeight.w500,
+    color: Colors.black,
+  );
+
+  static const TextStyle title18Regular = TextStyle(
+    fontSize: 18,
+    fontWeight: FontWeight.normal,
+    color: Colors.black,
+  );
+
+  static const TextStyle body17SemiBold = TextStyle(
+    fontSize: 17,
+    fontWeight: FontWeight.w600,
+    color: Colors.black,
+  );
+
+  static const TextStyle body16SemiBold = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w600,
     color: Colors.black,
   );
-  static const TextStyle kTextStyleRegular14 = TextStyle(
-    fontSize: 14,
-    fontWeight: FontWeight.w400,
+
+  static const TextStyle body16Regular = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.normal,
     color: Colors.black,
   );
-  static const TextStyle kTextStyleBold14 = TextStyle(
+
+  static const TextStyle body14Bold = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.bold,
     color: Colors.black,
   );
-  static const TextStyle kTextStyleMedium14 = TextStyle(
+
+  static const TextStyle body14Medium = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w500,
     color: Colors.black,
   );
-  static const TextStyle kTextStyleSemiBold14 = TextStyle(
+
+  static const TextStyle body14Regular = TextStyle(
     fontSize: 14,
-    fontWeight: FontWeight.w600,
+    fontWeight: FontWeight.normal,
     color: Colors.black,
   );
-  static const TextStyle kTextStyleRegular12 = TextStyle(
-    fontSize: 12,
-    fontWeight: FontWeight.w400,
+
+  static const TextStyle caption11Bold = TextStyle(
+    fontSize: 11,
+    fontWeight: FontWeight.bold,
     color: Colors.black,
   );
-  static const TextStyle kTextStyleMedium10 = TextStyle(
-    fontSize: 10,
-    fontWeight: FontWeight.w500,
+
+  static const TextStyle caption11Regular = TextStyle(
+    fontSize: 11,
+    fontWeight: FontWeight.normal,
+    color: Colors.black,
+  );
+
+  static const TextStyle caption9Bold = TextStyle(
+    fontSize: 9,
+    fontWeight: FontWeight.bold,
+    color: Colors.black,
+  );
+
+  static const TextStyle caption7Bold = TextStyle(
+    fontSize: 7,
+    fontWeight: FontWeight.bold,
     color: Colors.black,
   );
 }
